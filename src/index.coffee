@@ -1,4 +1,4 @@
-Ractive = require 'Ractive'
+Ractive = require 'ractive'
 umd = require 'umd-wrapper'
 sysPath = require 'path'
 
@@ -21,5 +21,5 @@ module.exports = class RactiveCompiler
 
   include: [
     (sysPath.join __dirname, '..', 'vendor',
-      'Ractive.runtime-0.3.6.js')
+      'ractive.runtime-0.4.0.js')
   ]
